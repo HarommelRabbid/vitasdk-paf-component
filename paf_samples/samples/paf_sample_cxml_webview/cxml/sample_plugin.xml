@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+		<box id="box_whole">
+          <layout_box size="960, 544" layout_type="1" />
+          <text style="_common_default_style_text" id="_sample_widget_webview_title">
+            <layout_hint size="960, 32" />
+          </text>
+          <text_box ime_type="1" style="860731A3" ime_languages_forced="0" edit_mode="1" ime_supported_languages="8" ime_option="0" id="_sample_widget_webview_url">
+            <layout_hint size="960, 32" />
+          </text_box>
+          <webview home_url="https://www.google.com" url_field="_sample_widget_webview_url" title_field="_sample_widget_webview_title" progressbar="_sample_widget_webview_progressbar" back_btn="_sample_widget_webview_back" forward_btn="_sample_widget_webview_forward" reload_btn="_sample_widget_webview_reload" id="_sample_widget_webview">
+            <layout_hint size="960, 400" />
+          </webview>
+          <progressbar id="_sample_widget_webview_progressbar" signal_anim="0">
+            <layout_hint size="960, 16" />
+          </progressbar>
+          <box id="box_bottom">
+            <layout_box space_adjust="1" layout_type="2" size="960, 64" id="box_buttons" />
+            <button style="_common_default_style_button" id="_sample_widget_webview_back">
+              <layout_hint size="64, 64" />
+            </button>
+            <button style="_common_default_style_button" id="_sample_widget_webview_forward">
+              <layout_hint size="64, 64" />
+            </button>
+            <button style="_common_default_style_button" id="_sample_widget_webview_reload">
+              <layout_hint size="64, 64" />
+            </button>
+          </box>
+        </box>
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+    <style_plane color="0, 0, 0, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+	<style_text_box textobj="text_obj1" planeobj="plane_obj1" id="860731A3">
+      <textobj font_size="20" align_y="1" align_x="0" text_align="1" word_wrap="0" ellipsis="0" font_color="0, 0, 0, 1" id="text_obj1" />
+      <planeobj color="1, 1, 1, 0.8" id="plane_obj1" />
+    </style_text_box>
+  </styletable>
+
+  <stringtable>
+  </stringtable>
+
+  <filetable>
+  </filetable>
+</resource>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <radio_box style="_common_default_style_radio_box" id="_sample_widget_radio_box">
+        <box id="box">
+          <layout_box children_adjust_x="0" pos="0, 0" layout_type="1" size="400, 400" />
+
+          <radio_button style="_common_default_style_radio_button" id="_sample_widget_radio_button_0" tuck="1">
+            <layout_hint size="64, 64" />
+          </radio_button>
+
+          <radio_button style="_common_default_style_radio_button" id="_sample_widget_radio_button_1" tuck="1">
+            <layout_hint size="64, 64" />
+          </radio_button>
+
+          <radio_button style="_common_default_style_radio_button" id="_sample_widget_radio_button_2" tuck="1">
+            <layout_hint size="64, 64" />
+          </radio_button>
+        </box>
+      </radio_box>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+  </styletable>
+
+  <!-- If the system language is set to a language not listed here, no text will be displayed on the button. -->
+  <stringtable>
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>

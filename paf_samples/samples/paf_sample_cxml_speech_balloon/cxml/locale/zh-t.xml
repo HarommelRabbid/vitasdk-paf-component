@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stringset>
+  <string src="Left" id="msg_sample_button_left" />
+  <string src="Right" id="msg_sample_button_right" />
+  <string src="Top" id="msg_sample_button_top" />
+  <string src="Middle" id="msg_sample_button_middle" />
+  <string src="Bottom" id="msg_sample_button_bottom" />
+</stringset>

@@ -1,0 +1,151 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.33026.149
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_app_icon_simple", "samples\paf_sample_cxml_app_icon_simple\paf_sample_cxml_app_icon_simple.vcxproj", "{0D237F51-222F-4BC8-86B8-A9F0A18093DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_busyindicator", "samples\paf_sample_cxml_busyindicator\paf_sample_cxml_busyindicator.vcxproj", "{A5E0F6F9-AE2B-4670-AC7F-69545A508992}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_plane", "samples\paf_sample_cxml_plane\paf_sample_cxml_plane.vcxproj", "{9A526394-79BD-41D3-9819-B03BFECF1B1B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_progressbar", "samples\paf_sample_cxml_progressbar\paf_sample_cxml_progressbar.vcxproj", "{E6FFE447-6750-4C3E-8518-60D38F7247D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_slidebar", "samples\paf_sample_cxml_slidebar\paf_sample_cxml_slidebar.vcxproj", "{6FCDE7B2-181C-444E-9545-BDAB1F42D046}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_speech_balloon", "samples\paf_sample_cxml_speech_balloon\paf_sample_cxml_speech_balloon.vcxproj", "{DF87F709-1840-4220-BE0F-2AB030135BEB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_text", "samples\paf_sample_cxml_text\paf_sample_cxml_text.vcxproj", "{5BBD51A1-0536-4AAF-B64D-91787A18E497}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_button", "samples\paf_sample_cxml_button\paf_sample_cxml_button.vcxproj", "{8C1CF2D3-7E8A-4B49-9FA8-A9F6133D4BE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_corner_button", "samples\paf_sample_cxml_corner_button\paf_sample_cxml_corner_button.vcxproj", "{C807DC4E-42DA-4E6E-9B69-797D5E167F49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_list_view-list_item", "samples\paf_sample_cxml_list_view-list_item\paf_sample_cxml_list_view-list_item.vcxproj", "{6F3B9267-A88B-4EEB-870E-AD2D7839F513}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_num_spin", "samples\paf_sample_cxml_num_spin\paf_sample_cxml_num_spin.vcxproj", "{1D97CECB-2725-451A-B139-A5E5AA2A1F83}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_progressbar_touch", "samples\paf_sample_cxml_progressbar_touch\paf_sample_cxml_progressbar_touch.vcxproj", "{818B9814-23EB-4692-A8DE-4C4AF7184AB2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_build_assert_vitasdk", "samples\paf_build_assert_vitasdk\paf_build_assert_vitasdk.vcxproj", "{EE67BF31-417B-462B-899C-A9F7B1208ADD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_webview", "samples\paf_sample_cxml_webview\paf_sample_cxml_webview.vcxproj", "{BF46EE84-D7F6-4EB1-A564-931A89CDAEAC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_text_box", "samples\paf_sample_cxml_text_box\paf_sample_cxml_text_box.vcxproj", "{C8F002CC-126C-4C5C-83A9-3CAD1E1EDEA2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_rich_text", "samples\paf_sample_cxml_rich_text\paf_sample_cxml_rich_text.vcxproj", "{FB1A5401-7742-4F40-A6A5-AB7AA18D86A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_advanced_transition", "samples\paf_sample_advanced_transition\paf_sample_advanced_transition.vcxproj", "{FDD2C76F-EC87-432F-A4B5-4679CBDD440A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_feature_screen_orientation", "samples\paf_sample_feature_screen_orientation\paf_sample_feature_screen_orientation.vcxproj", "{42B2E7B3-741F-46EA-873B-9A5DABAB1AE8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_feature_input_listener", "samples\paf_sample_feature_input_listener\paf_sample_feature_input_listener.vcxproj", "{B62CB526-52DC-4F40-8E51-91DD89F6AB9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_feature_image_to_texture", "samples\paf_sample_feature_image_to_texture\paf_sample_feature_image_to_texture.vcxproj", "{15A9ACE9-D4ED-4FF5-9EC6-84C6FA8A543E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_cxml_radio_box-radio_button", "samples\paf_sample_cxml_radio_box-radio_button\paf_sample_cxml_radio_box-radio_button.vcxproj", "{A00CFC6D-C492-4B63-80C8-DE1E557C4449}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paf_sample_feature_thread_task_job", "samples\paf_sample_feature_thread_task_job\paf_sample_feature_thread_task_job.vcxproj", "{E7D1ED6F-B548-45AE-8F95-6F55E40B5A65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|PSVita = Debug|PSVita
+		Release|PSVita = Release|PSVita
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D237F51-222F-4BC8-86B8-A9F0A18093DE}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{0D237F51-222F-4BC8-86B8-A9F0A18093DE}.Debug|PSVita.Build.0 = Debug|PSVita
+		{0D237F51-222F-4BC8-86B8-A9F0A18093DE}.Release|PSVita.ActiveCfg = Release|PSVita
+		{0D237F51-222F-4BC8-86B8-A9F0A18093DE}.Release|PSVita.Build.0 = Release|PSVita
+		{A5E0F6F9-AE2B-4670-AC7F-69545A508992}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{A5E0F6F9-AE2B-4670-AC7F-69545A508992}.Debug|PSVita.Build.0 = Debug|PSVita
+		{A5E0F6F9-AE2B-4670-AC7F-69545A508992}.Release|PSVita.ActiveCfg = Release|PSVita
+		{A5E0F6F9-AE2B-4670-AC7F-69545A508992}.Release|PSVita.Build.0 = Release|PSVita
+		{9A526394-79BD-41D3-9819-B03BFECF1B1B}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{9A526394-79BD-41D3-9819-B03BFECF1B1B}.Debug|PSVita.Build.0 = Debug|PSVita
+		{9A526394-79BD-41D3-9819-B03BFECF1B1B}.Release|PSVita.ActiveCfg = Release|PSVita
+		{9A526394-79BD-41D3-9819-B03BFECF1B1B}.Release|PSVita.Build.0 = Release|PSVita
+		{E6FFE447-6750-4C3E-8518-60D38F7247D4}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{E6FFE447-6750-4C3E-8518-60D38F7247D4}.Debug|PSVita.Build.0 = Debug|PSVita
+		{E6FFE447-6750-4C3E-8518-60D38F7247D4}.Release|PSVita.ActiveCfg = Release|PSVita
+		{E6FFE447-6750-4C3E-8518-60D38F7247D4}.Release|PSVita.Build.0 = Release|PSVita
+		{6FCDE7B2-181C-444E-9545-BDAB1F42D046}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{6FCDE7B2-181C-444E-9545-BDAB1F42D046}.Debug|PSVita.Build.0 = Debug|PSVita
+		{6FCDE7B2-181C-444E-9545-BDAB1F42D046}.Release|PSVita.ActiveCfg = Release|PSVita
+		{6FCDE7B2-181C-444E-9545-BDAB1F42D046}.Release|PSVita.Build.0 = Release|PSVita
+		{DF87F709-1840-4220-BE0F-2AB030135BEB}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{DF87F709-1840-4220-BE0F-2AB030135BEB}.Debug|PSVita.Build.0 = Debug|PSVita
+		{DF87F709-1840-4220-BE0F-2AB030135BEB}.Release|PSVita.ActiveCfg = Release|PSVita
+		{DF87F709-1840-4220-BE0F-2AB030135BEB}.Release|PSVita.Build.0 = Release|PSVita
+		{5BBD51A1-0536-4AAF-B64D-91787A18E497}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{5BBD51A1-0536-4AAF-B64D-91787A18E497}.Debug|PSVita.Build.0 = Debug|PSVita
+		{5BBD51A1-0536-4AAF-B64D-91787A18E497}.Release|PSVita.ActiveCfg = Release|PSVita
+		{5BBD51A1-0536-4AAF-B64D-91787A18E497}.Release|PSVita.Build.0 = Release|PSVita
+		{8C1CF2D3-7E8A-4B49-9FA8-A9F6133D4BE1}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{8C1CF2D3-7E8A-4B49-9FA8-A9F6133D4BE1}.Debug|PSVita.Build.0 = Debug|PSVita
+		{8C1CF2D3-7E8A-4B49-9FA8-A9F6133D4BE1}.Release|PSVita.ActiveCfg = Release|PSVita
+		{8C1CF2D3-7E8A-4B49-9FA8-A9F6133D4BE1}.Release|PSVita.Build.0 = Release|PSVita
+		{C807DC4E-42DA-4E6E-9B69-797D5E167F49}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{C807DC4E-42DA-4E6E-9B69-797D5E167F49}.Debug|PSVita.Build.0 = Debug|PSVita
+		{C807DC4E-42DA-4E6E-9B69-797D5E167F49}.Release|PSVita.ActiveCfg = Release|PSVita
+		{C807DC4E-42DA-4E6E-9B69-797D5E167F49}.Release|PSVita.Build.0 = Release|PSVita
+		{6F3B9267-A88B-4EEB-870E-AD2D7839F513}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{6F3B9267-A88B-4EEB-870E-AD2D7839F513}.Debug|PSVita.Build.0 = Debug|PSVita
+		{6F3B9267-A88B-4EEB-870E-AD2D7839F513}.Release|PSVita.ActiveCfg = Release|PSVita
+		{6F3B9267-A88B-4EEB-870E-AD2D7839F513}.Release|PSVita.Build.0 = Release|PSVita
+		{1D97CECB-2725-451A-B139-A5E5AA2A1F83}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{1D97CECB-2725-451A-B139-A5E5AA2A1F83}.Debug|PSVita.Build.0 = Debug|PSVita
+		{1D97CECB-2725-451A-B139-A5E5AA2A1F83}.Release|PSVita.ActiveCfg = Release|PSVita
+		{1D97CECB-2725-451A-B139-A5E5AA2A1F83}.Release|PSVita.Build.0 = Release|PSVita
+		{818B9814-23EB-4692-A8DE-4C4AF7184AB2}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{818B9814-23EB-4692-A8DE-4C4AF7184AB2}.Debug|PSVita.Build.0 = Debug|PSVita
+		{818B9814-23EB-4692-A8DE-4C4AF7184AB2}.Release|PSVita.ActiveCfg = Release|PSVita
+		{818B9814-23EB-4692-A8DE-4C4AF7184AB2}.Release|PSVita.Build.0 = Release|PSVita
+		{EE67BF31-417B-462B-899C-A9F7B1208ADD}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{EE67BF31-417B-462B-899C-A9F7B1208ADD}.Debug|PSVita.Build.0 = Debug|PSVita
+		{EE67BF31-417B-462B-899C-A9F7B1208ADD}.Release|PSVita.ActiveCfg = Release|PSVita
+		{EE67BF31-417B-462B-899C-A9F7B1208ADD}.Release|PSVita.Build.0 = Release|PSVita
+		{BF46EE84-D7F6-4EB1-A564-931A89CDAEAC}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{BF46EE84-D7F6-4EB1-A564-931A89CDAEAC}.Debug|PSVita.Build.0 = Debug|PSVita
+		{BF46EE84-D7F6-4EB1-A564-931A89CDAEAC}.Release|PSVita.ActiveCfg = Release|PSVita
+		{BF46EE84-D7F6-4EB1-A564-931A89CDAEAC}.Release|PSVita.Build.0 = Release|PSVita
+		{C8F002CC-126C-4C5C-83A9-3CAD1E1EDEA2}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{C8F002CC-126C-4C5C-83A9-3CAD1E1EDEA2}.Debug|PSVita.Build.0 = Debug|PSVita
+		{C8F002CC-126C-4C5C-83A9-3CAD1E1EDEA2}.Release|PSVita.ActiveCfg = Release|PSVita
+		{C8F002CC-126C-4C5C-83A9-3CAD1E1EDEA2}.Release|PSVita.Build.0 = Release|PSVita
+		{FB1A5401-7742-4F40-A6A5-AB7AA18D86A8}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{FB1A5401-7742-4F40-A6A5-AB7AA18D86A8}.Debug|PSVita.Build.0 = Debug|PSVita
+		{FB1A5401-7742-4F40-A6A5-AB7AA18D86A8}.Release|PSVita.ActiveCfg = Release|PSVita
+		{FB1A5401-7742-4F40-A6A5-AB7AA18D86A8}.Release|PSVita.Build.0 = Release|PSVita
+		{FDD2C76F-EC87-432F-A4B5-4679CBDD440A}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{FDD2C76F-EC87-432F-A4B5-4679CBDD440A}.Debug|PSVita.Build.0 = Debug|PSVita
+		{FDD2C76F-EC87-432F-A4B5-4679CBDD440A}.Release|PSVita.ActiveCfg = Release|PSVita
+		{FDD2C76F-EC87-432F-A4B5-4679CBDD440A}.Release|PSVita.Build.0 = Release|PSVita
+		{42B2E7B3-741F-46EA-873B-9A5DABAB1AE8}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{42B2E7B3-741F-46EA-873B-9A5DABAB1AE8}.Debug|PSVita.Build.0 = Debug|PSVita
+		{42B2E7B3-741F-46EA-873B-9A5DABAB1AE8}.Release|PSVita.ActiveCfg = Release|PSVita
+		{42B2E7B3-741F-46EA-873B-9A5DABAB1AE8}.Release|PSVita.Build.0 = Release|PSVita
+		{B62CB526-52DC-4F40-8E51-91DD89F6AB9E}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{B62CB526-52DC-4F40-8E51-91DD89F6AB9E}.Debug|PSVita.Build.0 = Debug|PSVita
+		{B62CB526-52DC-4F40-8E51-91DD89F6AB9E}.Release|PSVita.ActiveCfg = Release|PSVita
+		{B62CB526-52DC-4F40-8E51-91DD89F6AB9E}.Release|PSVita.Build.0 = Release|PSVita
+		{15A9ACE9-D4ED-4FF5-9EC6-84C6FA8A543E}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{15A9ACE9-D4ED-4FF5-9EC6-84C6FA8A543E}.Debug|PSVita.Build.0 = Debug|PSVita
+		{15A9ACE9-D4ED-4FF5-9EC6-84C6FA8A543E}.Release|PSVita.ActiveCfg = Release|PSVita
+		{15A9ACE9-D4ED-4FF5-9EC6-84C6FA8A543E}.Release|PSVita.Build.0 = Release|PSVita
+		{A00CFC6D-C492-4B63-80C8-DE1E557C4449}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{A00CFC6D-C492-4B63-80C8-DE1E557C4449}.Debug|PSVita.Build.0 = Debug|PSVita
+		{A00CFC6D-C492-4B63-80C8-DE1E557C4449}.Release|PSVita.ActiveCfg = Release|PSVita
+		{A00CFC6D-C492-4B63-80C8-DE1E557C4449}.Release|PSVita.Build.0 = Release|PSVita
+		{E7D1ED6F-B548-45AE-8F95-6F55E40B5A65}.Debug|PSVita.ActiveCfg = Debug|PSVita
+		{E7D1ED6F-B548-45AE-8F95-6F55E40B5A65}.Debug|PSVita.Build.0 = Debug|PSVita
+		{E7D1ED6F-B548-45AE-8F95-6F55E40B5A65}.Release|PSVita.ActiveCfg = Release|PSVita
+		{E7D1ED6F-B548-45AE-8F95-6F55E40B5A65}.Release|PSVita.Build.0 = Release|PSVita
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0148E9C-29D0-4A55-BD09-53AEE1C59CFC}
+	EndGlobalSection
+EndGlobal

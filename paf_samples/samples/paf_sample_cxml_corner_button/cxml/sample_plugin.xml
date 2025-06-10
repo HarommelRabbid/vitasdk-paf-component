@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+
+        <corner_button style="_common_style_corner_top_left" id="test_corner_button_top_left" />
+        <corner_button style="_common_style_corner_top_right" id="test_corner_button_top_right" />
+        <corner_button style="_common_style_corner_bottom_left" id="test_corner_button_bottom_left" />
+        <corner_button style="_common_style_corner_bottom_right" id="test_corner_button_bottom_right" />
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+    <style_plane color="0, 0, 0, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+  </styletable>
+
+  <stringtable>
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+
+        <box id="_sample_widget_box">
+          <num_spin id="_sample_widget_num_spin_0" loop="1">
+            <layout_hint size="194, 240" />
+            <focus_hint left_id="_sample_widget_button_left" />
+          </num_spin>
+        </box>
+
+        <button style="_common_default_style_button" id="_sample_widget_button_left">
+          <layout_hint align="2, 0" pos="-20, -173" size="310, 46" />
+          <focus_hint direct_key="32" left_id="_sample_widget_button_left" right_id="_sample_widget_button_right" />
+        </button>
+        <button style="_common_default_style_button" id="_sample_widget_button_right">
+          <layout_hint align="1, 0" pos="20, -173" size="310, 46" />
+          <focus_hint direct_key="16" left_id="_sample_widget_button_left" right_id="_sample_widget_button_right" />
+        </button>
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+    <style_plane color="0, 0, 0, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+  </styletable>
+
+  <stringtable>
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+
+        <!-- list_view height should be aligned by 32 -->
+
+        <!--
+          (450 / 2) % 32 == 1 for bad case test
+          (544 / 2 - 450 / 2) % 32 == 15 -> (32 - 15) == 17, offset to <17 or -17>
+          but not (450 / 2) % 32 == 0. so broken bottom layout in ths case.
+        -->
+        <plane style="_common_style_plane_transparent">
+          <layout_hint pos="240, -17" size="240, 450" />
+
+          <plane style="_common_style_plane_1">
+            <layout_hint align="1, 1" anchor="1, 1" size="90, 5" />
+          </plane>
+
+          <plane style="_common_style_plane_1">
+            <layout_hint align="1, 2" anchor="1, 2" size="90, 5" />
+          </plane>
+
+          <list_view style="_common_style_list_view_transparent" id="bad_list_view_1">
+            <layout_hint size="240, 450" />
+          </list_view>
+        </plane>
+
+        <!--
+          (450 / 2) % 32 == 1 for bad case test
+          (544 / 2 - 450 / 2) % 32 == 15 -> offset to <15 or -15>
+          but not (450 / 2) % 32 == 0. so broken top layout in ths case.
+        -->
+        <plane style="_common_style_plane_transparent">
+          <layout_hint pos="0, -15" size="240, 450" />
+
+          <plane style="_common_style_plane_1">
+            <layout_hint align="1, 1" anchor="1, 1" size="90, 5" />
+          </plane>
+
+          <plane style="_common_style_plane_1">
+            <layout_hint align="1, 2" anchor="1, 2" size="90, 5" />
+          </plane>
+
+          <list_view style="_common_style_list_view_transparent" id="bad_list_view_2">
+            <layout_hint size="240, 450" />
+          </list_view>
+        </plane>
+
+        <!--
+          448 % 32 == 0
+          (544 / 2 - 448 / 2) % 32 == 16 -> (32 - 16) == 16 -> offset to <16 or -16>
+        -->
+        <plane style="_common_style_plane_transparent">
+          <layout_hint pos="-240, -16" size="240, 448" />
+
+          <plane style="_common_style_plane_1">
+            <layout_hint align="1, 1" anchor="1, 1" size="90, 5" />
+          </plane>
+
+          <plane style="_common_style_plane_1">
+            <layout_hint align="1, 2" anchor="1, 2" size="90, 5" />
+          </plane>
+
+          <list_view style="_common_style_list_view_transparent" id="good_list_view">
+            <layout_hint size="240, 448" />
+          </list_view>
+        </plane>
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+    <template fast_open="1" id="_sample_template_list_item">
+      <list_item style="_common_style_list_item_transparent" id="list_item">
+        <layout_hint adjust="0, 2" size="240, 70" />
+        <button sound="_common_sound_button_enter" style="_style_button" id="button">
+          <layout_hint size="240, 70" />
+        </button>
+      </list_item>
+    </template>
+  </templatetable>
+
+  <styletable>
+    <style_plane color="0, 0, 0, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+
+    <style_button bg_obj="obj1" glow_obj="obj2" label_obj="txtobj" id="_style_button">
+        <planeobj texture0="_common_texture_list_70px" id="obj1" />
+        <planeobj texture0="_common_texture_list_glow_70px" id="obj2" />
+        <textobj font_size="24" bold="1" color="1, 1, 1, 1" word_wrap="1" align_x="1" align_y="1" ellipsis="0" emboss="0" id="txtobj" />
+    </style_button>
+  </styletable>
+
+  <stringtable>
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>

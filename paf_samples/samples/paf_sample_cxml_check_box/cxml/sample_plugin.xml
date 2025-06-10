@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+
+        <!-- Using a box would be a good idea here -->
+
+        <text style="_common_default_style_text" id="test_strings_id">
+          <layout_hint adjust="2, 2" anchor="0, 0" align="0, 0" size="0, 0" pos="50, 0" />
+        </text>
+
+        <check_box style="_common_default_style_check_box" id="sample_check_box">
+            <layout_hint pos="-50, 0" size="58, 58" />
+        </check_box>
+        
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+    <style_plane color="0, 0, 0, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+  </styletable>
+
+  <!-- No strings in this sample -->
+  <stringtable>
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>

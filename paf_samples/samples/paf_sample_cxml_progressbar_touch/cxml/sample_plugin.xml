@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+
+        <progressbar_touch style="_common_default_style_progressbar_touch" label_pos_mode="7" w_label="text_label" label_mode="2" label_margin="9" id="_sample_widget_progressbar">
+          <layout_hint id="landscape960x544" size="680, 10" />
+          <text style="_sample_style_text" id="text_label">
+            <layout_hint adjust="2, 2" id="landscape960x544" />
+          </text>
+        </progressbar_touch>
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+    <style_plane color="0, 0, 0, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+
+    <style_text textobj="textobj_style" id="_sample_style_text">
+      <textobj font_size="20" id="textobj_style" />
+    </style_text>
+  </styletable>
+
+  <stringtable>
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>

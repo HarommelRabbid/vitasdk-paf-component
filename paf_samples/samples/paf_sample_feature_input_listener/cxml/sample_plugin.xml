@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+        <text style="mini_font" id="text_pad">
+          <layout_hint adjust="2, 2" anchor="1, 2" align="1, 2" />
+        </text>
+        <text style="mini_font" id="text_touch_front">
+          <layout_hint adjust="2, 2" anchor="1, 2" align="1, 2" />
+        </text>
+        <text style="mini_font" id="text_touch_back">
+          <layout_hint adjust="2, 2" anchor="1, 2" align="1, 2" />
+        </text>
+        <text style="mini_font" id="text_motion">
+          <layout_hint adjust="2, 2" anchor="1, 2" align="1, 2" />
+        </text>
+        <text style="mini_font" id="text_keyboard">
+          <layout_hint adjust="2, 2" anchor="1, 2" align="1, 2" />
+        </text>
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+    <style_plane color="0, 0, 0, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+    <style_text color="1, 1, 1, 1" textobj="text_obj1" id="mini_font">
+      <textobj align_y="1" align_x="1" font_size="16" id="text_obj1" />
+    </style_text>
+  </styletable>
+
+  <stringtable>
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>

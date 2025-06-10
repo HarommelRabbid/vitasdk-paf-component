@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+
+        <!-- Using a box would be a good idea here -->
+
+        <text style="_common_default_style_text" id="test_strings_id" label="msg_test_text">
+          <layout_hint adjust="2, 2" anchor="0, 0" align="0, 0" size="0, 0" pos="0, 150" />
+        </text>
+
+        <text_box style="style_text_box_sample" id="sample_text_box" auto_scroll="1" ime_type="0" edit_mode="1" paste_mode="1" edit_auto_transition_mode="0" >
+            <layout_hint size="842, 58" pos="0, 80" />
+        </text_box>
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+    <style_plane color=".5, .5, .5, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+
+    <style_text_box bottom_margin="8" color="1,1,1,1" glowobj="glowobj1" sound="_common_sound_text_box"  right_margin="8" top_margin="8" left_margin="8" textobj="text_obj1" planeobj="plane_obj1" id="style_text_box_sample">
+        <textobj font_size="24" align_y="1" align_x="0" text_align="1" line_pitch="40" ellipsis="1" id="text_obj1" />
+        <planeobj texture0="_common_texture_text_box" id="plane_obj1" />
+        <planeobj texture0="_common_texture_checkbox_textbox_glow" blend="2" id="glowobj1" />
+    </style_text_box>
+  </styletable>
+
+  <!-- If the system language is set to a language not listed here, no text will be displayed on the button. -->
+  <stringtable>
+    <locale src="locale/ja.xml" compress="on" id="ja" />
+    <locale src="locale/en.xml" compress="on" id="en" />
+    <locale src="locale/en-gb.xml" compress="on" id="en-gb" />
+    <locale src="locale/zh-s.xml" compress="on" id="zh-s" />
+    <locale src="locale/zh-t.xml" compress="on" id="zh-t" />
+    <locale src="locale/da.xml" compress="on" id="da" />
+    <locale src="locale/nl.xml" compress="on" id="nl" />
+    <locale src="locale/fi.xml" compress="on" id="fi" />
+    <locale src="locale/fr.xml" compress="on" id="fr" />
+    <locale src="locale/de.xml" compress="on" id="de" />
+    <locale src="locale/it.xml" compress="on" id="it" />
+    <locale src="locale/ko.xml" compress="on" id="ko" />
+    <locale src="locale/no.xml" compress="on" id="no" />
+    <locale src="locale/pl.xml" compress="on" id="pl" />
+    <locale src="locale/pt.xml" compress="on" id="pt" />
+    <locale src="locale/ru.xml" compress="on" id="ru" />
+    <locale src="locale/es.xml" compress="on" id="es" />
+    <locale src="locale/sv.xml" compress="on" id="sv" />
+    <locale src="locale/pt-br.xml" compress="on" id="pt-br" />
+    <locale src="locale/tr.xml" compress="on" id="tr" />
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>

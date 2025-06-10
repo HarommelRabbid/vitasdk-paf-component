@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource version="0.1" type="normal" id="sample_plugin">
+
+  <pagetable>
+    <page id="page_main">
+      <plane style="style_plane_sample_black" id="plane_sample_black">
+        <layout_hint size="960, 544" />
+
+        <!-- _common_texture_context_menu_base -->
+        <speech_balloon id="_common_template_speech_balloon_menu_horizontal" texture="_common_texture_copy_paste_menu_base_up">
+          <layout_hint adjust="2, 2, 0" pos="0, 90" />
+          <box id="_common_template_speech_balloon_menu_box">
+            <layout_box layout_type="2" bottom_margin="7" top_margin="7" right_margin="7" left_margin="7" />
+            <button sound="_common_sound_button_enter" style="_common_style_copy_paste_menu_button_left" id="_common_template_speech_balloon_menu_button_2" label="msg_sample_button_left">
+              <layout_hint adjust="2, 0, 0" size="0, 46, 0" />
+            </button>
+            <button sound="_common_sound_button_enter" style="_common_style_copy_paste_menu_button_right" id="_common_template_speech_balloon_menu_button_3" label="msg_sample_button_right">
+              <layout_hint adjust="2, 0, 0" size="0, 46, 0" />
+            </button>
+          </box>
+        </speech_balloon>
+
+        <speech_balloon id="_common_template_speech_balloon_menu_vertical" texture="_common_texture_option_menu_base_side">
+          <layout_hint adjust="2, 2, 0" pos="0, -90" />
+          <box id="_common_template_speech_balloon_menu_box">
+            <layout_box layout_type="1" bottom_margin="7" top_margin="7" right_margin="7" left_margin="7" />
+            <button sound="_common_sound_button_enter" style="_sample_style_context_menu_button_top" id="_common_template_speech_balloon_menu_button_4" label="msg_sample_button_top">
+              <layout_hint adjust="2, 0, 0" size="0, 46, 0" />
+            </button>
+            <button sound="_common_sound_button_enter" style="_sample_style_context_menu_button_middle" id="_common_template_speech_balloon_menu_button_5" label="msg_sample_button_middle">
+              <layout_hint adjust="2, 0, 0" size="0, 46, 0" />
+            </button>
+            <button sound="_common_sound_button_enter" style="_sample_style_context_menu_button_bottom" id="_common_template_speech_balloon_menu_button_6" label="msg_sample_button_bottom">
+              <layout_hint adjust="2, 0, 0" size="0, 46, 0" />
+            </button>
+          </box>
+        </speech_balloon>
+      </plane>
+    </page>
+  </pagetable>
+
+  <templatetable>
+  </templatetable>
+
+  <styletable>
+    <style_plane color="0, 0, 0, 1" planeobj="plane_obj1" id="style_plane_sample_black">
+      <planeobj id="plane_obj1" />
+    </style_plane>
+
+    <style_button bottom_margin="12" glow_obj="glow_obj" right_margin="20" top_margin="12" left_margin="20" label_obj="label_obj" bg_obj="bg_obj" adjust_min_size="146, 54" id="_sample_style_context_menu_button_top">
+      <planeobj texture0="_common_texture_option_menu_button_top" id="bg_obj" />
+      <textobj font_size="28" bold="1" align_y="1" align_x="1" adjust_x="1" adjust_y="1" id="label_obj" />
+      <planeobj texture0="_common_texture_option_menu_button_top_glow" blend="2" id="glow_obj" />
+    </style_button>
+
+    <style_button bottom_margin="12" glow_obj="glow_obj" right_margin="20" top_margin="12" left_margin="20" label_obj="label_obj" bg_obj="bg_obj" adjust_min_size="146, 54" id="_sample_style_context_menu_button_middle">
+      <planeobj texture0="_common_texture_option_menu_button_middle" id="bg_obj" />
+      <textobj font_size="28" bold="1" align_y="1" align_x="1" adjust_x="1" adjust_y="1" id="label_obj" />
+      <planeobj texture0="_common_texture_option_menu_button_middle_glow" blend="2" id="glow_obj" />
+    </style_button>
+
+    <style_button bottom_margin="12" glow_obj="glow_obj" right_margin="20" top_margin="12" left_margin="20" label_obj="label_obj" bg_obj="bg_obj" adjust_min_size="146, 54" id="_sample_style_context_menu_button_bottom">
+      <planeobj texture0="_common_texture_option_menu_button_bottom" id="bg_obj" />
+      <textobj font_size="28" bold="1" align_y="1" align_x="1" adjust_x="1" adjust_y="1" id="label_obj" />
+      <planeobj texture0="_common_texture_option_menu_button_bottom_glow" blend="2" id="glow_obj" />
+    </style_button>
+  </styletable>
+
+  <!-- If the system language is set to a language not listed here, no text will be displayed on the button. -->
+  <stringtable>
+    <locale src="locale/ja.xml" compress="on" id="ja" />
+    <locale src="locale/en.xml" compress="on" id="en" />
+    <locale src="locale/en-gb.xml" compress="on" id="en-gb" />
+    <locale src="locale/zh-s.xml" compress="on" id="zh-s" />
+    <locale src="locale/zh-t.xml" compress="on" id="zh-t" />
+    <locale src="locale/da.xml" compress="on" id="da" />
+    <locale src="locale/nl.xml" compress="on" id="nl" />
+    <locale src="locale/fi.xml" compress="on" id="fi" />
+    <locale src="locale/fr.xml" compress="on" id="fr" />
+    <locale src="locale/de.xml" compress="on" id="de" />
+    <locale src="locale/it.xml" compress="on" id="it" />
+    <locale src="locale/ko.xml" compress="on" id="ko" />
+    <locale src="locale/no.xml" compress="on" id="no" />
+    <locale src="locale/pl.xml" compress="on" id="pl" />
+    <locale src="locale/pt.xml" compress="on" id="pt" />
+    <locale src="locale/ru.xml" compress="on" id="ru" />
+    <locale src="locale/es.xml" compress="on" id="es" />
+    <locale src="locale/sv.xml" compress="on" id="sv" />
+    <locale src="locale/pt-br.xml" compress="on" id="pt-br" />
+    <locale src="locale/tr.xml" compress="on" id="tr" />
+  </stringtable>
+
+  <texturetable>
+  </texturetable>
+
+  <filetable>
+  </filetable>
+</resource>
